@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
-button{
+.button{
     font-family: Noto Sans JP;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    
+    border: none;
     color: #3F3F3F;  
     width: 81px;
 height: 36px;
@@ -16,12 +17,20 @@ box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
 border-radius: 6px;
 }
 
-.hoverOne{
+.button:hover, .hoverOne{
 
     background: #AEAEAE;
 }
 
 .outline{
+    width: 81px;
+    height: 36px;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
     
     border: 1px solid #3D5AFE;
     border-radius: 6px;
@@ -29,7 +38,7 @@ border-radius: 6px;
     color: #3D5AFE;
 }
 
-.outline-hover{
+.outline:hover, .hovertwo {
     
     border: 1px solid #3D5AFE;
     border-radius: 6px;
@@ -37,9 +46,163 @@ border-radius: 6px;
     color: #3D5AFE;
 }
 
-table{
-    width:40%;
+.text {
+    width: 88px;
+    height: 36px;
+    background: none;
+	border: none;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #3D5AFE;
+}
+
+.text:hover, .hoverthree {
+    width: 88px;
+    height: 36px;
+
+    background: rgba(41, 98, 255, 0.1);
+    border-radius: 6px;
+}
+.disabledshadow{
+    width: 81px;
+    height: 36px;
+    left: 319px;
+    top: 453px;
+    background: #3D5AFE;
+    border-radius: 6px;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+.hoverfive{
+    background: #0039CB;
+}
+
+.disabled{
+    width: 88px;
+height: 36px;
+background: #E0E0E0;
+border-radius: 6px;
+font-family: Noto Sans JP;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+  border: none;
+color: #9E9E9E;
+}
+
+.disabled:hover, .hoverfour {
+    background: none;
+    border: none;
+    color: #9E9E9E;
+}
+
+.btn{
+    width: 83px;
+    height: 32px;
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    border-radius: 6px;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+}
+
+.medium{
+    width: 81px;
+   height: 36px;
+}
+
+.large{
+    width: 93px;
+    height: 42px;
     
 }
 
+.secondary{
+    width: 104px;
+    height: 36px;
+    left: 731px;
+    top: 879px;
+    border: none;
+    background: #455A64;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+    border-radius: 6px;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hoversix{
+    background: #1C313A;
+}
+
+.danger{
+    width: 81px;
+    height: 36px;
+    left: 971px;
+    top: 879px;
+    border:none;
+    background: #D32F2F;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+    border-radius: 6px;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hoverseven{
+    background: #9A0007;
+}
+
+table{
+    width:70%;
+    height: 90vh;
+    margin: 0 70px;
+}
+
+.paragra{
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #333333;
+text-align: left;
+}
+
+button::before { 
+    content:url(/my-app/public/shoppin.svg)
+  }
+
+button{
+    float:left;
+}
 

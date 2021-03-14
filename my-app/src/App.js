@@ -39,11 +39,11 @@ function App() {
         </div>
         <div className="modulePage">
           <div className="module-title">{module}</div>
-          <div>
+          
             
             {ModuleReturn(module)}
 
-          </div>
+          
           
         </div>
       </div>

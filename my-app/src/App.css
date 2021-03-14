@@ -2,8 +2,8 @@
   text-align: center;
   width:100%;
   margin: auto;
-  max-width: 1440px;
-  background-color: #c8e4ec;
+  /* max-width: 1440px; */
+  background-color: #ffffff;
   height: 100vh;
 
 }
@@ -57,6 +57,7 @@
 
 .modulePage{
   width:1190px;
+  overflow:scroll;
 }
 .logoname{
   margin: 25px auto;
