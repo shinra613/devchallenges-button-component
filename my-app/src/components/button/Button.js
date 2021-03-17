@@ -17,8 +17,11 @@ function ButtonCompThree(props){
 
 
 function ParaComp(props) {
-    return <p className="paragra">{props.para}</p>
+    return <p className={props.class}>{props.para}</p>
 }
+ParaComp.defaultProps = {
+    class: 'paragra'
+  };
 
 function Button (){
     return <div>
@@ -28,19 +31,19 @@ function Button (){
                 <td>
                     <ParaComp para="<Button />"  />
                     <ButtonComp name="Default" class="button" /></td>
-                <td> <ParaComp para="&:hover, &:focus" />
+                <td> <ParaComp class="grey" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="button hoverOne" /></td>
             </tr>
             <tr>
                 <td> <ParaComp para="<Button variant=”outline” />" />
                     <ButtonComp name="Default" class="outline" /></td>
-                <td>  <ParaComp para="&:hover, &:focus" />
+                <td>  <ParaComp class="grey" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="outline hovertwo" /></td>
             </tr>
             <tr>
                 <td> <ParaComp para="<Button variant=”text” />" />
                     <ButtonComp name="Default" class="text" /></td>
-                <td>  <ParaComp para="&:hover, &:focus" />
+                <td>  <ParaComp class="grey" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="text hoverthree" /></td>
             </tr>
             <tr>
@@ -86,7 +89,7 @@ function Button (){
                
             </tr>
             <tr>
-                <td> <ParaComp para="&:hover, &:focus" />
+                <td> <ParaComp class="grey" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="button hoverOne" /></td>
                 <td> 
                     <ButtonComp name="Default" class="disabledshadow " />

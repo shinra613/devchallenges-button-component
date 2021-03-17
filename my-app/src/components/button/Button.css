@@ -211,4 +211,14 @@ button{
     width: 85px;
 }
 
+.grey{
+    color: #828282;
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: left;
+}
+
 
