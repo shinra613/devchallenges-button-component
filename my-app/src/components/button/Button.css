@@ -198,11 +198,10 @@ color: #333333;
 text-align: left;
 }
 
-button::before { 
-    content:url(/my-app/public/shoppin.svg)
-  }
 
 button{
     float:left;
 }
+
+
 
