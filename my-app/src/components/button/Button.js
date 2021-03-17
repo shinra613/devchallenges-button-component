@@ -11,6 +11,10 @@ function ButtonCompTwo(props) {
     return <button className={props.class}><i class="fas fa-cart-plus"></i>{props.name}</button>
 }
 
+function ButtonCompThree(props){
+    return <button className={props.class}>{props.name}<i class="fas fa-cart-plus"></i></button>
+}
+
 
 function ParaComp(props) {
     return <p className="paragra">{props.para}</p>
@@ -55,9 +59,9 @@ function Button (){
                 <td> <ParaComp para="<Button startIcon=”local_grocery_store” />" />
                     
                     
-                    <ButtonCompTwo name="Default" class="disabledshadow lefticon" /></td>
+                    <ButtonCompTwo name=" Default" class="disabledshadow lefticon" /></td>
                     <td> <ParaComp para="<Button endIcon=”local_grocery_store” />" />
-                    <ButtonCompTwo name="Default" class="disabledshadow righticon" /></td>
+                    <ButtonCompThree name="Default " class="disabledshadow righticon" /></td>
                
             </tr>
             <tr>

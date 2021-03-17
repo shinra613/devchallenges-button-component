@@ -203,5 +203,12 @@ button{
     float:left;
 }
 
+.lefticon{
+    width: 85px;
+}
+
+.righticon{
+    width: 85px;
+}
 
 
