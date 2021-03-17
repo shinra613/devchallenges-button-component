@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .button{
     font-family: Noto Sans JP;
@@ -221,4 +222,38 @@ line-height: 12px;
 text-align: left;
 }
 
+
+footer{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer>p{
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    
+    /* identical to box height */
+    
+    /* Gray 3 */
+    color: #828282;
+}
+
+footer>h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #A9A9A9;
+}
+footer>h1> span{
+    font-weight: bold;
+    color: #A9A9A9;
+}
 
