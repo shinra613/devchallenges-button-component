@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import './App.css';
 import Button from './components/button/Button'
+import Input from './components/input/input'
 
 function App() {
 
   const [module, setModule] = useState('Button');
   
   const moduleComponent = {
-    'Button': <Button />
+    'Button': <Button />,
+    'Input' : <Input />
   }
 
   const ModuleReturn = (moduleName) => {
