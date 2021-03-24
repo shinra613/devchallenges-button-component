@@ -5,7 +5,7 @@ import Input from './components/input/input'
 
 function App() {
 
-  const [module, setModule] = useState('Button');
+  const [module, setModule] = useState('Input');
   
   const moduleComponent = {
     'Button': <Button />,

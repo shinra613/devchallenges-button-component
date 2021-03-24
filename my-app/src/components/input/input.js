@@ -3,13 +3,18 @@ import './input.css';
 
 
 const InputComp = (props) => {
-    return (<div className="inpcon"><label>Label</label><input type="text" placeholder='placeholder'></input></div>)
+    return (<div className="inpcon"><label>{props.label}</label><input type="text" placeholder={props.placeholder} ></input></div>)
 }
+
+InputComp.defaultProps = {
+    placeholder: 'Placeholder',
+    label:'Label'
+  };
 
 const  Input=() => {
    
-    return (<div>
-        <table>
+    return (<div className="container">
+        <table className="tableone">
             <tr>
                 <td><InputComp /></td>
                 <td><InputComp /></td>
@@ -29,10 +34,14 @@ const  Input=() => {
                 
             </tr>
         </table>
-        <table>
+        <table className="tabletwo">
             <tr>
-                <td><InputComp /></td>
-                <td><InputComp /></td>
+                <td><InputComp />
+                    <small>Some interesting texts</small>
+                </td>
+                <td><InputComp />
+                <small>Some interesting texts</small>
+                </td>
                 
 
             </tr>
@@ -44,7 +53,7 @@ const  Input=() => {
             </tr>
 
             <tr>
-            <td><InputComp /></td>
+            <td><InputComp placeholder="Text" /></td>
                 
             </tr>
             <tr>
@@ -52,6 +61,19 @@ const  Input=() => {
             <td><InputComp /></td>
             
             </tr>
+        </table>
+        <table className="tablethree">
+            <tr>
+                <td><InputComp /></td>
+
+            </tr>
+
+            <tr>
+            <td><InputComp /></td>
+
+            </tr>
+
+        
         </table>
     </div>)
 
