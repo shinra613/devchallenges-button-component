@@ -31,19 +31,19 @@ function Button (){
                 <td>
                     <ParaComp para="<Button />"  />
                     <ButtonComp name="Default" class="button" /></td>
-                <td> <ParaComp class="grey" para="&:hover, &:focus" />
+                <td> <ParaComp class="greyr" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="button hoverOne" /></td>
             </tr>
             <tr>
                 <td> <ParaComp para="<Button variant=”outline” />" />
                     <ButtonComp name="Default" class="outline" /></td>
-                <td>  <ParaComp class="grey" para="&:hover, &:focus" />
+                <td>  <ParaComp class="greyr" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="outline hovertwo" /></td>
             </tr>
             <tr>
                 <td> <ParaComp para="<Button variant=”text” />" />
                     <ButtonComp name="Default" class="text" /></td>
-                <td>  <ParaComp class="grey" para="&:hover, &:focus" />
+                <td>  <ParaComp class="greyr" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="text hoverthree" /></td>
             </tr>
             <tr>
@@ -73,7 +73,7 @@ function Button (){
                 <td> <ParaComp para="<Button size=”md” />" />
                     <ButtonComp name="Default" class="btn medium" /></td>
                 <td> <ParaComp para="<Button size=”lg” />" />
-                    <ButtonComp name="Default" class="btn large" /></td>
+                    <ButtonComp name="Default" class="btn larger" /></td>
             
                
             </tr>
@@ -89,7 +89,7 @@ function Button (){
                
             </tr>
             <tr>
-                <td> <ParaComp class="grey" para="&:hover, &:focus" />
+                <td> <ParaComp class="greyr" para="&:hover, &:focus" />
                     <ButtonComp name="Default" class="button hoverOne" /></td>
                 <td> 
                     <ButtonComp name="Default" class="disabledshadow " />

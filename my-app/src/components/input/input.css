@@ -22,6 +22,66 @@ input {
     padding-left: 12px;
 }
 
+.large{
+    width: 800px;
+    height: 56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 12px;
+}
+
+.multi{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 12px;
+    padding-bottom: 140px;
+}
+
+
+.less{
+    background: #F2F2F2;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.more{
+    width: 200px;
+    height: 56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 40px;
+}
+
+.fas{
+    position: relative;
+    top:40px;
+    left:30px;
+}
+
+.fis{
+    left:180px;
+}
+
+.munjo{
+    display: flex;
+}
+
+.paragra{
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #333333;
+text-align: left;
+}
+
 
 .tabletwo{
     width: 60%;
@@ -46,10 +106,80 @@ input {
     margin: auto;
 }
 
+.grey{
+    border: 1px solid  #828282;
+}
+.grey-label{
+    color:#828282 ;
+}
+
+.black{
+    border: 1px solid #333333;
+}
+.black-label{
+    color:#333333;
+}
+
+.red{
+    border: 1px solid #D32F2F;
+    
+}
+
+.red-label{
+    color:#D32F2F ;
+}
+
+.blue{
+    border: 1px solid #2962FF;
+}
+
+.blue-label{
+    color:#2962FF;
+}
+
 tr{
     margin: 300px 0;
 }
 
 small{
-    margin-right: 170px;
+    margin-right: 200px;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #828282;
+    
+    
+}
+
+footer{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer>h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #A9A9A9;
+}
+footer>h1> span{
+    font-weight: bold;
+    color: #A9A9A9;
+}
+
+.greyr{
+    color: #828282;
+    font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: left;
 }

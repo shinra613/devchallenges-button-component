@@ -133,9 +133,9 @@ color: #9E9E9E;
    height: 36px;
 }
 
-.large{
+.larger{
     width: 93px;
-    height: 42px;
+    height: 42px;  
     
 }
 
@@ -212,7 +212,7 @@ button{
     width: 85px;
 }
 
-.grey{
+.greyr{
     color: #828282;
     font-family: Ubuntu Mono;
 font-style: normal;
